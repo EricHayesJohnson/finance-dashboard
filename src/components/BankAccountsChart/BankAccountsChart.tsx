@@ -33,13 +33,13 @@ const BankAccountsChart = () => {
                     />
                     <Line
                         type="monotone"
-                        dataKey="Bank A"
+                        dataKey="Bank 1"
                         stroke={grape}
                         activeDot={{ r: 6 }}
                     />
                     <Line
                         type="monotone"
-                        dataKey="Bank C"
+                        dataKey="Bank 2"
                         stroke={orange}
                         activeDot={{ r: 6 }}
                     />

@@ -27,13 +27,13 @@ const TaxableAccountsChart = () => {
                     <Legend />
                     <Line
                         type="monotone"
-                        dataKey="Broker S"
+                        dataKey="Broker 1"
                         stroke={blue}
                         activeDot={{ r: 6 }}
                     />
                     <Line
                         type="monotone"
-                        dataKey="Broker V"
+                        dataKey="Broker 2"
                         stroke={grape}
                         activeDot={{ r: 6 }}
                     />

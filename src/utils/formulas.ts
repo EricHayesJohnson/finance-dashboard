@@ -66,7 +66,7 @@ export const currentTotalValueStocks = () => {
     const currentTaxableStocks = getValueByMonth({
         data: taxableData,
         month: latestMonth,
-        key: 'Broker V'
+        key: 'Broker 2'
     });
     return currentRetirementStocks + currentTaxableStocks;
 };
@@ -75,7 +75,7 @@ export const currentTotalValueBonds = () => {
     const currentTaxableBonds = getValueByMonth({
         data: taxableData,
         month: latestMonth,
-        key: 'Broker S'
+        key: 'Broker 1'
     });
     return currentTaxableBonds;
 };
